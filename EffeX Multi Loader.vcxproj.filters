@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui.cpp" />
+    <ClCompile Include="ImGui\imgui_draw.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="utilsmapper.cpp" />
+    <ClCompile Include="print.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h" />
+    <ClInclude Include="ImGui\imgui.h" />
+    <ClInclude Include="ImGui\imgui_impl_dx9.h" />
+    <ClInclude Include="ImGui\imgui_internal.h" />
+    <ClInclude Include="ImGui\stb_rect_pack.h" />
+    <ClInclude Include="ImGui\stb_textedit.h" />
+    <ClInclude Include="ImGui\stb_truetype.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="xorstr.hpp" />
+    <ClInclude Include="Mapper.h">
+      <Filter>Spoofer</Filter>
+    </ClInclude>
+    <ClInclude Include="SpooferDriver.h">
+      <Filter>Spoofer</Filter>
+    </ClInclude>
+    <ClInclude Include="Cleaner.h">
+      <Filter>Spoofer</Filter>
+    </ClInclude>
+    <ClInclude Include="mac changer.h">
+      <Filter>Spoofer</Filter>
+    </ClInclude>
+    <ClInclude Include="utilsmapper.hpp" />
+    <ClInclude Include="print.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Spoofer">
+      <UniqueIdentifier>{e144ffea-59d3-4f49-9ed5-bf3c4960121d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
